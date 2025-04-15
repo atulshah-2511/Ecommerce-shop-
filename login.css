@@ -1,0 +1,62 @@
+span {
+    color: red;
+}
+
+span:hover {
+    color: blue;
+    transition: linear 0.5s;
+    transform: scaleZ(0.5);
+}
+
+#nav1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: linear 1s;
+}
+
+#nav1 li a:hover {
+    transform: rotate(1);
+    text-decoration: underline;
+}
+
+#nav2 button {
+    padding: 10px;
+    font-size: 15px;
+    border-color: white;
+    border-radius: 10px;
+    min-height: 10px;
+}
+
+#nav2 button:hover {
+    background-color: azure;
+}
+
+#nav2 button a {
+    color: black;
+    text-decoration: none;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+#end{
+    margin-top: 11%;
+}
+#form {
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+    margin-top: 20px;
+    min-height: 300px;
+    padding: 20px;
+    border-top: none;
+    border-left: none;
+    border-radius: 10px;
+}

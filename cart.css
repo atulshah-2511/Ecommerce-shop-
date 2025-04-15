@@ -1,0 +1,111 @@
+span {
+    color: red;
+}
+
+span:hover {
+    color: blue;
+    transition: linear 0.5s;
+    transform: scaleZ(0.5);
+}
+
+#nav2 button a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: linear 1s;
+}
+
+#nav1 li a:hover {
+    transform: rotate(1);
+    text-decoration: underline;
+}
+
+#nav2 button {
+    padding: 10px;
+    font-size: 15px;
+    border-color: white;
+    border-radius: 10px;
+    min-height: 10px;
+}
+
+#nav2 button:hover {
+    background-color: azure;
+}
+
+.box1 {
+    min-height: 400px;
+    min-width: 100%;
+    border: 1px solid black;
+}
+
+.box2 {
+    min-height: 300px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+#img {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.flex {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    min-height: 120px;
+    min-width: 99%;
+    border: 1px solid black;
+}
+
+#title {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#qty {
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.flex h4 {
+    text-align: center;
+}
+
+#price {
+    float: inline-end;
+    margin-right: 10px;
+}
+#total {
+    float: inline-end;
+    margin-right: 10px;
+}
+
+#order{
+    background: black;
+    color: white;
+    padding:5px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
